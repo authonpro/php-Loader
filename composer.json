@@ -1,0 +1,28 @@
+{
+  "name": "authonpro/sdk-php",
+  "description": "Official Authon SDK for PHP — Software Licensing & Authentication",
+  "version": "1.0.0",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Authon",
+      "email": "support@authon.pro",
+      "homepage": "https://authon.pro"
+    }
+  ],
+  "require": {
+    "php": ">=7.4",
+    "ext-curl": "*",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "files": ["authon.php"]
+  },
+  "homepage": "https://authon.pro",
+  "support": {
+    "docs": "https://authon.pro/docs/sdk/php",
+    "issues": "https://github.com/authonpro/sdk-php/issues"
+  },
+  "keywords": ["authon", "licensing", "authentication", "hwid"]
+}
